@@ -1,0 +1,309 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main-container{
+    height: 900px;
+    background-color: #a8e1e7;
+   
+   
+    
+}
+.container-one{
+    padding-left: 70px;
+    padding-right: 70px;
+     
+} 
+body{
+   
+   background: linear-gradient(( rgb(82, 214, 226)));
+ 
+} 
+
+nav >ul >li{
+    display: inline;
+    padding: 20px;
+    color: black;
+    padding-left: 10px;
+    text-align: left;
+ }
+ nav ul li a{
+     text-decoration: none;
+     color: black;
+     font-size: 20px;
+     font-weight: bold;
+     padding-left:hover;
+     display: inline;
+     float: right;
+     padding: 20px;
+ }
+ nav >ul{
+    list-style: none;
+    text-decoration:none;
+    font-size: larger;
+    
+}  
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: #e2f7f7;
+}
+.title{
+    flex-shrink: 1;
+    width: 500px;
+    font-size: x-large;
+}
+.line{
+    display: right;
+    align-items:flex-start;
+}
+.line>hr{
+    height: 2px;
+    width: 50px;
+    background-color: red; 
+    margin-right: 90%;
+} 
+.header-desc p{
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    padding-left: 7px;
+    display: inline;
+}
+.text p{
+    text-align: left;
+    text-decoration: none;
+    padding-top: 100px;
+    font-size: xx-large;
+    font-weight: lighter;
+    margin-top: 70%;
+    
+}
+#radiology,#dental,#surgical,#parturition,#ambulance,#hostel{
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    padding: 10px 10px 5px 10px;
+    margin: 50px;
+    text-align: justify;
+    max-width: 100%;
+  height: auto;
+  background-color:white;
+  border-style: none;
+}
+.section1{
+    display: flex;
+    background-color: #E9FAFC;
+    border: 1px solid gray;
+     border-width: 0px;
+     text-align: center;
+     margin-bottom: 60px; 
+} 
+
+.grid{
+    margin: 50px;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    column-gap:20px;
+   
+}
+
+.fa{
+    font-size: 30px;
+    color:#1ba0ab;
+    margin-top: 10px;
+}
+.icon{
+    display: flex;
+    background-color: #E9FAFC;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    justify-content: center;
+}
+.service-title{
+display: flex;
+width: 90%;
+height:50px ;
+column-gap: 400px;
+padding: 0px 10px 0px 10px;
+}
+
+
+.service-title >p{
+    position: absolute;
+    text-align: center;
+    font-size: xx-large;
+    left: 900px;
+}
+ .doc-grid{
+     display: flex;
+     justify-content: space-between;
+     column-gap: 20px;
+     flex-wrap: wrap;
+     overflow: hidden;
+ }
+
+ .doc-1{
+     text-align: center;
+     line-height: 2px;
+ }
+button{
+    width: 150px;
+    height: 60px;
+    background:  #0dd7ea;
+    color: rgb(147, 152, 244);
+    padding:  20px;
+    letter-spacing: 1.2px;
+    border: none;
+    cursor: pointer;
+    
+    
+}
+ .container-sub{
+    display: flex;
+    /* width: 100%; */
+    background-color: #c4eef3;
+   padding: auto ;
+    height: auto;
+    justify-content: center;
+    font-size: x-large;
+} 
+input[type="text"]{
+    border: 0.5px solid grey;
+    width: 400px;
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 30px;
+    
+}
+.subscriber{
+    width: 50%;
+}
+
+.social-icons > .fa{
+    font-size: 20px;
+}
+footer {
+    padding-top: 30px;
+    display: flex;
+    column-gap: 250px;
+    justify-content: center;
+    background-color: #a4e8ee;
+   
+    
+    
+}
+
+
+.footer-grid {
+    text-align: center;
+    
+    
+}
+.container-review{
+    background-color: #d8f8fb;
+    height: 450px;
+    margin-top: -10%;
+}
+.stars-one span{
+    color: rgb(255, 225, 0);
+
+}
+#rate{
+    color: black;
+}
+.stars-two span{
+    color:rgb(255, 225, 0) ;
+}
+.review-grid{
+    display: flex;
+    font-size: large;
+    
+}
+.review{
+    padding: 10px 40px 10px 40px; 
+}
+
+ .review2{
+    border-left: 2px solid rgb(11, 11, 11);
+    height: 350px;
+    
+    
+}
+
+
+
+.header-image{
+    position: relative;
+    border:  solid rgb(164, 191, 193);
+   height: 500px;
+    width: 500px;
+    border-radius: 90%;
+    border-width: 90px;
+    border-bottom: center;
+    background-color: rgb(203, 228, 250); ;
+    margin-left:56%;
+    margin-top: -28%;
+}
+ .header-image img{
+       
+     margin-left:-20%;
+     margin-bottom: -50px;
+} 
+.veterinarians{
+    font-size: 30px;
+    margin-bottom: 7%;
+    margin-right: -5px;
+    background-color: #d3f6f9;
+    width: 1300px;
+    height: 600px;
+
+}
+.veterinarians h2{
+    font-size: 50px;
+    margin-bottom: 9%;
+}
+.doctors{
+    background-color: #b5eef4;
+    margin-top: -2%;
+
+}
+
+
+
+ .header-desc{
+    font-size: 50px;
+    text-decoration: none;
+    display: flex;
+} 
+    
+
+.header-image{
+    border-radius: 50%;
+    
+}
+
+.footer-grid ul{
+    text-decoration: none;
+    list-style: none;
+}
+.fa-facebook-official{
+    color: #4267B2;
+}
+.fa-twitter{
+    color: #1DA1F2;
+}
+.fa-google-plus{
+    color: #DD4B39;
+} 
+.fa-linkedin{
+    color:#0072b1 ;
+} 
+
+
+
+
+
+
+
